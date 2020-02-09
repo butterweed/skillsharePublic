@@ -1,0 +1,33 @@
+
+body {background-color: teal;}
+
+hr {
+    background-color:teal;
+    border-style: dotted;
+    border-color: yellow;
+    border-bottom-style: none;
+    border-width: 5px;
+    width: 2%;
+}
+
+h1 {color:#f5dea3;}
+
+h3 {color: #f5dea3;
+    font-style: italic;    
+}
+
+/******************Class Selectors*********************/
+
+.firsthr {
+    border-color: black;
+}
+
+.contacth3 {
+    color: pink;
+}
+
+/******************ID Selectors*********************/
+#firsth3contact:hover{ 
+    color: green;
+
+}
